@@ -5,7 +5,6 @@ Import-Module ../src/AsciiPersonCreator.psm1
 Describe "Pop-AsciiPerson Function" {
     It "Should return the correct ASCII person string" {
         $result = Pop-AsciiPerson
-        $expected = "0-(-<"
-        $result | Should -Be $expected
+        $result | Should -Be "0-(-<"
     }
 }
